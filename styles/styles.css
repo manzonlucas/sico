@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 0;
+}
+
+body {
+  font-size: 30px;
+}
+
+main {
+  color: aliceblue;
+  background-image: url('../images/bg-01.jpg');
+  height: 100vh;
+}
+
+.text-container {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #ffc822;
+  color: black;
+  width: 20%;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: inherit;
+  border: 2px solid black
+}
+
+#contact {
+  color: black;
+}
