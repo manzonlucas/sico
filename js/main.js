@@ -1,6 +1,11 @@
 (function($) {
   
   "use strict";
+
+  // enable when web is finished:
+  // window.onbeforeunload = function () {
+  //   window.scrollTo(0, 0);
+  // }
   
   /* Page Loader active
   ========================================================*/
