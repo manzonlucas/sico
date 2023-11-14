@@ -11,30 +11,6 @@
   ========================================================*/
   $('#preloader').fadeOut();
 
-  /* Testimonials Carousel 
-  ========================================================*/
-  var owl = $("#client-testimonial");
-    owl.owlCarousel({
-      navigation: true,
-      pagination: false,
-      slideSpeed: 1000,
-      stopOnHover: true,
-      autoPlay: true,
-      items: 1,
-      animateIn: 'fadeIn',
-      animateOut: 'fadeOut',
-      addClassActive: true,
-      itemsDesktop : [1199,1],
-      itemsDesktopSmall : [980,1],
-      itemsTablet: [768,1],
-      itemsTablet: [767,1],
-      itemsTabletSmall: [480,1],
-      itemsMobile : [479,1],
-    });   
-    $('#client-testimonial').find('.owl-prev').html('<i class="lni-chevron-left"></i>');
-    $('#client-testimonial').find('.owl-next').html('<i class="lni-chevron-right"></i>');
-
-
     /* showcase Slider
     =============================*/
      var owl = $(".showcase-slider");
